@@ -5,7 +5,7 @@ import logger from 'redux-logger';
 import getDataReducer from './Reducers/data';
 
 const rootReducer = combineReducers({
-  missions: getDataReducer,
+  data: getDataReducer,
 });
 
 const store = configureStore({ reducer: rootReducer }, applyMiddleware(thunk, logger));
