@@ -1,7 +1,4 @@
-// const api = 'https://api.covid19tracking.narrativa.com/api';
 const ap2 = 'https://api.covid19tracking.narrativa.com/api/2022-05-12';
-// const date = '2022-02-02';
-// const country = 'spain';
 
 const fetchData = async () => {
   try {
@@ -13,6 +10,10 @@ const fetchData = async () => {
       id: key,
       name: dat[0][key].name,
       today_confirmed: dat[0][key].today_confirmed,
+      today_deaths: dat[0][key].today_deaths,
+      today_recovered: dat[0][key].today_recovered,
+      source: dat[0][key].source,
+      today_open_cases: dat[0][key].today_open_cases,
     }));
     return result;
   } catch (err) {
