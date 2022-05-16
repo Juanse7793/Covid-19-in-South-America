@@ -31,7 +31,7 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <h1>Home</h1>
+      <h1>Covid 19 in South American Countries</h1>
       <table>
         <thead>
           <tr>
