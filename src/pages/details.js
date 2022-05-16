@@ -5,7 +5,7 @@ import DetailsItem from '../components/detailsItem';
 
 const Details = () => {
   const dispatch = useDispatch();
-  const data = useSelector((state) => state.data);
+  const data = useSelector((state) => state.data.filter((country) => country.name === window.location.pathname.split('/')[1]));
 
   useEffect(() => {
     dispatch(getData());

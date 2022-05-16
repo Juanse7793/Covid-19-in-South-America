@@ -10,7 +10,7 @@ export default function getDataReducer(state = [], action) {
     case FILTER_DATA:
       return [...state.map((country) => {
         if (country.id === action.payload.id) {
-          return { ...country, filtered: action.payload.status };
+          return { ...country, filtered: true };
         }
         return country;
       }),
@@ -28,12 +28,11 @@ export const getData = () => async (dispatch) => {
   });
 };
 
-export const filterData = (id, status) => (dispatch) => {
+export const filterData = (id) => (dispatch) => {
   dispatch({
     type: FILTER_DATA,
     payload: {
       id,
-      status: Boolean(Number(status)),
     },
   });
 };
