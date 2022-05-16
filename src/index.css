@@ -1,4 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  background-color: #4369B2;
+}
+
+.title {
+  width: 90%;
+  font-family: 'Indie Flower', cursive;
+  font-size: auto;
+  margin-left: 5%;
+  text-align: center;
+  color: blueviolet;
+}
+
+.first-card-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid red 1px;
+}
+
+.sac-img {
+  width: 20%;
+  height: auto;
+}
+
+.first-card {
+  width: 40%;
+  height: auto;
+  border: solid red 1px;
+}
+
+.subtitle {
+  font-family: 'Indie Flower', cursive;
+  font-size: auto;
+  margin-left: 5%;
+  text-align: center;
+  color: white;
+}
+
+.description {
+  width: 100%;
+  height: auto;
+  text-align: center;
 }

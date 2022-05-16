@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getData } from '../Redux/Reducers/data';
+import southAmerica from '../images/Southamerica.svg';
 
 const Home = () => {
   const sac = [
@@ -31,11 +32,18 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <h1>Covid 19 in South American Countries</h1>
+      <h1 className="title">Covid 19 in South American Countries</h1>
+      <div className="first-card-cont">
+        <img className="sac-img" src={southAmerica} alt="South american countries" />
+        <div className="first-card">
+          <h2 className="subtitle">South America</h2>
+          <p className="description">442.5 hab</p>
+        </div>
+      </div>
       <table>
         <thead>
           <tr>
-            <th>Countries</th>
+            <th>STATS BY COUNTRY</th>
           </tr>
         </thead>
         <tbody>
