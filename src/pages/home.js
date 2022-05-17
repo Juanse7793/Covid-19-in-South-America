@@ -37,7 +37,7 @@ const Home = () => {
         <img className="sac-img" src={southAmerica} alt="South american countries" />
         <div className="first-card">
           <h2 className="subtitle">South America</h2>
-          <p className="description">442.5 hab</p>
+          <p className="description">442.5M hab</p>
         </div>
       </div>
       <div className="second-card-cont">
