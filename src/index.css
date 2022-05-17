@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:thin,extra-light,light,100,200,300,400,500,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800');
 
 body {
@@ -9,7 +9,7 @@ body {
 
 .title {
   width: 90%;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: auto;
   margin-left: 5%;
   text-align: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .subtitle {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: auto;
   margin-left: 5%;
   text-align: center;
@@ -53,7 +53,7 @@ body {
   height: auto;
   padding-left: 2.5%;
   background-color: #335594;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lato', sans-serif;
 }
 
 .second-card {
@@ -72,7 +72,7 @@ body {
   background-color: transparent;
   font-size: larger;
   font-weight: 600;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lato', sans-serif;
   border: none;
   border-radius: 5px;
   text-align: center;
@@ -168,7 +168,7 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: 50px;
   font-weight: 800;
   color: white;
@@ -179,7 +179,7 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: 50px;
   font-weight: 800;
 }
@@ -203,6 +203,7 @@ body {
 .det-cont {
   padding-left: 5px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 .detailsbar {
@@ -214,7 +215,7 @@ body {
   width: 97.5%;
   padding-right: 5px;
   margin: 10px 0;
-  background-color: #335594;
+  background-color: #557eca;
 }
 
 .confirmed-pic {
