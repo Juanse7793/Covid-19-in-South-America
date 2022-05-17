@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800');
 
 body {
   margin: 0;
@@ -43,7 +44,7 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .stats {
@@ -70,6 +71,7 @@ body {
   color: black;
   background-color: transparent;
   font-size: larger;
+  font-weight: 600;
   font-family: 'Indie Flower', cursive;
   border: none;
   border-radius: 5px;
@@ -160,5 +162,84 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
 
+.country-title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+}
+
+.details-title {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.elli {
+  list-style-type: none;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.corona-pic {
+  padding: 0;
+}
+
+.det-cont {
+  padding-left: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.detailsbar {
+  border: solid white 2px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97.5%;
+  padding-right: 5px;
+  margin: 10px 0;
+  background-color: #335594;
+}
+
+.confirmed-pic {
+  width: 50px;
+  height: 50px
+}
+
+.return-btn {
+  background-color: #bb2124;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: larger;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-bottom: 3%;
+  padding: 10px;
+}
+
+.images-cont {
+  background-image: url('./images/Corona/corona1.svg');
+  height: 200px;
+  background-size: 100px;
+  background-repeat: repeat;
+  background-position: end;
 }

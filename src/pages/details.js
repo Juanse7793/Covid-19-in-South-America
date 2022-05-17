@@ -15,23 +15,22 @@ const Details = () => {
 
   return (
     <div className="Details">
-      <h1>Details</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Countries</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((country) => (
-            <tr key={country.id}>
-              <td>
-                <DetailsItem detail={country} />
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div className="title-container">
+        <h1 className="details-title">
+          Covid Stats in&nbsp;
+          <span className="country-name">
+            {window.location.pathname.split('/')[1]}
+          </span>
+        </h1>
+      </div>
+      <div className="images-cont" />
+      <div className="details-item-cont">
+        {data.map((country) => (
+          <li className="elli" key={country.id}>
+            <DetailsItem detail={country} />
+          </li>
+        ))}
+      </div>
     </div>
   );
 };
