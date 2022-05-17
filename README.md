@@ -17,7 +17,7 @@ This is the React-Redux Capstone, later I will update this description
 
 ## Live Demo
 
-Cooming Soon!
+Click here to see the live [Demo](https://covid-app-juanse7793.netlify.app/)
 
 ## Run it
 
