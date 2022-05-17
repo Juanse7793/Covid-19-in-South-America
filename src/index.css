@@ -4,13 +4,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #4369B2;
+  background-color: #4369b2;
 }
 
 .title {
   width: 90%;
   font-family: 'Lato', sans-serif;
-  font-size: auto;
+  font-size: larger;
   margin-left: 5%;
   text-align: center;
   color: black;
@@ -34,7 +34,7 @@ body {
 
 .subtitle {
   font-family: 'Lato', sans-serif;
-  font-size: auto;
+  font-size: larger;
   margin-left: 5%;
   text-align: center;
   color: white;
@@ -84,7 +84,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .card:nth-child(2) {
@@ -92,71 +91,71 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(3) {
   background-image: url('./images/Brazil.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(4) {
   background-image: url('./images/Chile.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(5) {
   background-image: url('./images/Colombia.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(6) {
   background-image: url('./images/Ecuador.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(7) {
   background-image: url('./images/Guyana.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(8) {
   background-image: url('./images/Paraguay.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(9) {
   background-image: url('./images/Peru.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(10) {
   background-image: url('./images/Suriname.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(11) {
   background-image: url('./images/Uruguay.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
 .card:nth-child(12) {
   background-image: url('./images/Venezuela.png');
   background-size: cover;
@@ -220,7 +219,7 @@ body {
 
 .confirmed-pic {
   width: 50px;
-  height: 50px
+  height: 50px;
 }
 
 .return-btn {
@@ -240,7 +239,8 @@ body {
 .images-cont {
   background-image: url('./images/Corona/corona1.svg');
   height: 200px;
+  width: 100%;
   background-size: 100px;
   background-repeat: repeat;
-  background-position: end;
+  background-position: left top;
 }
