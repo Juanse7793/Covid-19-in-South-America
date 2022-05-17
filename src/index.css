@@ -19,7 +19,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid red 1px;
 }
 
 .sac-img {
@@ -30,7 +29,6 @@ body {
 .first-card {
   width: 40%;
   height: auto;
-  border: solid red 1px;
 }
 
 .subtitle {
@@ -45,4 +43,56 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
+}
+
+.stats {
+  width: 100%;
+  font-size: medium;
+  height: auto;
+  padding-left: 2.5%;
+  background-color: #335594;
+}
+
+.second-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: auto;
+}
+
+.country-btn {
+  width: 100%;
+  height: 200px;
+  color: white;
+  background-color: transparent;
+  font-size: medium;
+  font-family: 'Indie Flower', cursive;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card:nth-child(1) {
+  background-color: #335594;
+}
+
+.card:nth-child(4) {
+  background-color: #335594;
+}
+
+.card:nth-child(5) {
+  background-color: #335594;
+}
+
+.card:nth-child(8) {
+  background-color: #335594;
+}
+
+.card:nth-child(9) {
+  background-color: #335594;
+}
+
+.card:nth-child(12) {
+  background-color: #335594;
 }

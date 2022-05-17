@@ -40,27 +40,18 @@ const Home = () => {
           <p className="description">442.5 hab</p>
         </div>
       </div>
-      <table>
-        <thead>
-          <tr>
-            <th>STATS BY COUNTRY</th>
-          </tr>
-        </thead>
-        <tbody>
+      <div className="second-card-cont">
+        <h2 className="stats">STATS BY COUNTRY</h2>
+        <div className="second-card">
           {data.map((country) => (
-            <tr key={country.id} path={`${country.name}`}>
-              <td>
-                <button
-                  type="button"
-                  onClick={() => handleRedirect(country.name)}
-                >
-                  {country.name}
-                </button>
-              </td>
-            </tr>
+            <div key={country.id} className="card">
+              <button className="country-btn" type="button" onClick={() => handleRedirect(country.name)}>
+                {country.name}
+              </button>
+            </div>
           ))}
-        </tbody>
-      </table>
+        </div>
+      </div>
     </div>
   );
 };
