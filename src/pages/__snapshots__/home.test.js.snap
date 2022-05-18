@@ -31,6 +31,12 @@ exports[`Home renders the Home Page and make a snapshot 1`] = `
         >
           442.5M hab
         </p>
+        <button
+          class="btn-about"
+          type="button"
+        >
+          About
+        </button>
       </div>
     </div>
     <div
