@@ -310,7 +310,7 @@ body {
   margin: 0 0 2% 1%;
   border-radius: 10px;
   padding-left: 5px;
-  box-shadow: black 0px 0px 5px;
+  box-shadow: black 0 0 5px;
 }
 
 .search-btn {
