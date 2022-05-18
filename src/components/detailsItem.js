@@ -18,7 +18,7 @@ function DetailsItem(props) {
   } = detail;
 
   const handleReturn = () => {
-    window.history.back();
+    window.location.href = '/';
   };
 
   DetailsItem.propTypes = {

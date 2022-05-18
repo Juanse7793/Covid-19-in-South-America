@@ -21,6 +21,7 @@ const Home = () => {
 
   const dispatch = useDispatch();
   const data = useSelector((state) => state.data.filter((country) => sac.includes(country.name)));
+  const [search, setSearch] = React.useState('');
 
   useEffect(() => {
     dispatch(getData());
@@ -32,6 +33,14 @@ const Home = () => {
 
   const handleAbout = () => {
     window.location.href = '/about';
+  };
+
+  const filterData = (e) => {
+    const search = e.target.value;
+    const filteredData = data.filter((country) => country.name
+      .toLowerCase().includes(search.toLowerCase()));
+    dispatch({ type: 'FILTER_DATA', payload: filteredData });
+    setSearch(filteredData);
   };
 
   return (
@@ -47,14 +56,21 @@ const Home = () => {
       </div>
       <div className="second-card-cont">
         <h2 className="stats">STATS BY COUNTRY</h2>
+        <input className="search" type="text" placeholder="Search country" onInput={filterData} />
         <div className="second-card">
-          {data.map((country) => (
+          {search === '' ? (data.map((country) => (
             <div key={country.id} className="card">
               <button className="country-btn" type="button" onClick={() => handleRedirect(country.name)}>
                 {country.name}
               </button>
             </div>
-          ))}
+          ))) : (search.map((country) => (
+            <div key={country.id} className="search-div">
+              <button className="country-btn" type="button" onClick={() => handleRedirect(country.name)}>
+                {country.name}
+              </button>
+            </div>
+          )))}
         </div>
       </div>
     </div>
