@@ -27,7 +27,7 @@ const About = () => {
         <a href="https://github.com/Juanse7793">
           <img className="github" src={github} alt="github" />
         </a>
-        <a href="https://www.linkedin.com/in/juan-sebastian-sotomayor-2bb395198/">
+        <a href="https://www.linkedin.com/in/juansebastiansotomayor/">
           <img className="linkedin" src={linkedin} alt="linkedin" />
         </a>
         <a href="https://twitter.com/Juanse77930">
