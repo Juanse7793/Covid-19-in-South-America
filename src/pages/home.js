@@ -66,7 +66,7 @@ const Home = () => {
             </div>
           ))) : (search.map((country) => (
             <div key={country.id} className="search-div">
-              <button className="country-btn" type="button" onClick={() => handleRedirect(country.name)}>
+              <button className="search-btn" type="button" onClick={() => handleRedirect(country.name)}>
                 {country.name}
               </button>
             </div>

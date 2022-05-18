@@ -313,9 +313,15 @@ body {
   box-shadow: black 0px 0px 5px;
 }
 
-.search-div {
+.search-btn {
   margin: 2%;
-  border: solid white 2px;
   border-radius: 25px;
   height: 30px;
+  background-color: transparent;
+  border: solid white 2px;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
 }
