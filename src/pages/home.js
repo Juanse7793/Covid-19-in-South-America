@@ -30,10 +30,6 @@ const Home = () => {
     window.location.href = `/${country}`;
   };
 
-  const handleAbout = () => {
-    window.location.href = '/about';
-  };
-
   return (
     <div className="Home">
       <h1 className="title">Covid 19 in South American Countries</h1>
@@ -41,8 +37,7 @@ const Home = () => {
         <img className="sac-img" src={southAmerica} alt="South american countries" />
         <div className="first-card">
           <h2 className="subtitle">South America</h2>
-          <p className="description">442.5M hab</p>
-          <button type="button" className="btn-about" onClick={handleAbout}>About</button>
+          <p className="description">442.5 hab</p>
         </div>
       </div>
       <div className="second-card-cont">
