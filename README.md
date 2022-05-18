@@ -19,6 +19,10 @@ This is the React-Redux Capstone, later I will update this description
 
 Click here to see the live [Demo](https://covid-app-juanse7793.netlify.app/)
 
+## Video
+
+Click on the [Link](https://drive.google.com/file/d/1LqU02gGLjuYD2TEPMNpuGFaxfY1ZozeQ/view?usp=sharing) to see the video
+
 ## Run it
 
 Use the following steps to run this Project locally:
@@ -61,6 +65,7 @@ Give a ⭐️ if you like this project!
 
 - By canislupusarctos - self made, used another image (in public domain) of commons and edited it, CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=2471023)
 
+- Original design idea by Nelson Sakwa on Behance.
 
 
 ## 📝 License
