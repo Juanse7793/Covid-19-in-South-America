@@ -1,3 +1,3 @@
-const getDataFilteredFromApi = () => 'The filtered data form API data is fetched';
+const getDataFilteredFromApi = () => 'The filtered data form API is fetched';
 
 module.exports = { getDataFilteredFromApi };
