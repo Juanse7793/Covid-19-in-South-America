@@ -1,12 +1,15 @@
 const date = new Date();
-const ap2 = `https://api.covid19tracking.narrativa.com/api/${date.toISOString().split('T')[0]}`;
+const yesterday = new Date();
+yesterday.setDate(date.getDate() - 1);
+
+const ap2 = `https://api.covid19tracking.narrativa.com/api/${yesterday.toISOString().split('T')[0]}`;
 
 const fetchData = async () => {
   try {
     const response = await fetch(ap2);
     const data = await response.json();
     const dat = [];
-    dat.push(data.dates[`${date.toISOString().split('T')[0]}`].countries);
+    dat.push(data.dates[`${yesterday.toISOString().split('T')[0]}`].countries);
     const result = Object.keys(dat[0]).map((key) => ({
       id: key,
       name: dat[0][key].name,
