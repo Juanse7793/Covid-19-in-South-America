@@ -1,6 +1,6 @@
 const date = new Date();
 const yesterday = new Date();
-yesterday.setDate(date.getDate() - 1);
+yesterday.setDate(date.getDate() - 10);
 
 const ap2 = `https://api.covid19tracking.narrativa.com/api/${yesterday.toISOString().split('T')[0]}`;
 
