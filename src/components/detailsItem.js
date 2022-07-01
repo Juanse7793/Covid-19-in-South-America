@@ -51,21 +51,23 @@ function DetailsItem(props) {
       </div>
       <div className="detailsbar">
         <p className="det-cont">
-          Recovered:&nbsp;
+          Life Expectancy:&nbsp;
           {todayRecovered}
+          &nbsp;Years
         </p>
         <img src={recovered} alt="confirmed" className="confirmed-pic" />
       </div>
       <div className="detailsbar">
         <p className="det-cont">
-          Source:&nbsp;
-          {source}
+          Population:&nbsp;
+          {(source / 1000000).toFixed(2)}
+          &nbsp;Millon People
         </p>
         <img src={sources} alt="confirmed" className="confirmed-pic" />
       </div>
       <div className="detailsbar">
         <p className="det-cont">
-          Open cases:&nbsp;
+          Last Update:&nbsp;
           {todayOpenCases}
         </p>
         <img src={openCases} alt="confirmed" className="confirmed-pic" />
