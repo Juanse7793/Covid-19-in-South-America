@@ -2,6 +2,8 @@
 
 # React-Capstone
 
+<img src='images/rwdcovid.png'>
+
 ## Description
 
 This is the React-Redux Capstone, later I will update this description
